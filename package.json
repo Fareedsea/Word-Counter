@@ -1,10 +1,12 @@
 {
   "name": "fsea-word-counter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a Word Counter Project",
   "main": "index.js",
   "type": "module",
-  "bin": "index.js",
+  "bin": {
+    "fsea-word-counter": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
